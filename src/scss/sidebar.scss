@@ -1,0 +1,18 @@
+.sidebar {
+  width: 190px;
+  height: 100vh;
+
+  .sidebar-items {
+    .sidebar-item {
+      color: rgb(var(--text-gray));
+
+      a {
+        color: rgb(var(--text-gray));
+      }
+
+      &.active {
+        background-color: rgb(var(--primary-color));
+      }
+    }
+  }
+}
